@@ -843,9 +843,9 @@
 //#define Z_PROBE_OFFSET_FROM_EXTRUDER 0.75   // Z offset: -below +above  [the nozzle]
 
 //https://www.thingiverse.com/thing:2205251/comments
-#define X_PROBE_OFFSET_FROM_EXTRUDER -26
-#define Y_PROBE_OFFSET_FROM_EXTRUDER -69
-#define Z_PROBE_OFFSET_FROM_EXTRUDER -5
+#define X_PROBE_OFFSET_FROM_EXTRUDER -10
+#define Y_PROBE_OFFSET_FROM_EXTRUDER -52
+#define Z_PROBE_OFFSET_FROM_EXTRUDER -0.11
 
 // Certain types of probes need to stay away from edges
 #define MIN_PROBE_EDGE 10
@@ -1583,7 +1583,7 @@
  * you must uncomment the following option or it won't work.
  *
  */
-#define SDSUPPORT
+//#define SDSUPPORT
 
 /**
  * SD CARD: SPI SPEED
